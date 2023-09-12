@@ -1,0 +1,15 @@
+D:\VS\MARS.TestTask.DBContext\obj\Debug\net7.0\MARS.TestTask.DBContext.csproj.AssemblyReference.cache
+D:\VS\MARS.TestTask.DBContext\obj\Debug\net7.0\MARS.TestTask.DBContext.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS\MARS.TestTask.DBContext\obj\Debug\net7.0\MARS.TestTask.DBContext.AssemblyInfoInputs.cache
+D:\VS\MARS.TestTask.DBContext\obj\Debug\net7.0\MARS.TestTask.DBContext.AssemblyInfo.cs
+D:\VS\MARS.TestTask.DBContext\obj\Debug\net7.0\MARS.TestTask.DBContext.csproj.CoreCompileInputs.cache
+D:\VS\MARS.TestTask.DBContext\bin\Debug\net7.0\MARS.TestTask.DBContext.deps.json
+D:\VS\MARS.TestTask.DBContext\bin\Debug\net7.0\MARS.TestTask.DBContext.dll
+D:\VS\MARS.TestTask.DBContext\bin\Debug\net7.0\MARS.TestTask.DBContext.pdb
+D:\VS\MARS.TestTask.DBContext\bin\Debug\net7.0\MARS.TestTask.ClassLibrary.dll
+D:\VS\MARS.TestTask.DBContext\bin\Debug\net7.0\MARS.TestTask.ClassLibrary.pdb
+D:\VS\MARS.TestTask.DBContext\obj\Debug\net7.0\MARS.TestTask.DBContext.csproj.CopyComplete
+D:\VS\MARS.TestTask.DBContext\obj\Debug\net7.0\MARS.TestTask.DBContext.dll
+D:\VS\MARS.TestTask.DBContext\obj\Debug\net7.0\refint\MARS.TestTask.DBContext.dll
+D:\VS\MARS.TestTask.DBContext\obj\Debug\net7.0\MARS.TestTask.DBContext.pdb
+D:\VS\MARS.TestTask.DBContext\obj\Debug\net7.0\ref\MARS.TestTask.DBContext.dll
