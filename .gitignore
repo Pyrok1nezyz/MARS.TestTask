@@ -398,6 +398,5 @@ FodyWeavers.xsd
 *.sln.iml
 
 *.cache
-*.cache
 *.editorconfig
-*.cache
+
