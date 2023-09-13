@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS\\MARS.TestTask.ClassLibrary\\MARS.TestTask.ClassLibrary.csproj",
+      "projectUniqueName": "D:\\VS\\LocalReps\\MARS.TestTask\\MARS.TestTask.ClassLibrary\\MARS.TestTask.ClassLibrary.csproj",
       "projectName": "MARS.TestTask.ClassLibrary",
-      "projectPath": "D:\\VS\\MARS.TestTask.ClassLibrary\\MARS.TestTask.ClassLibrary.csproj",
+      "projectPath": "D:\\VS\\LocalReps\\MARS.TestTask\\MARS.TestTask.ClassLibrary\\MARS.TestTask.ClassLibrary.csproj",
       "packagesPath": "C:\\Users\\maxxx\\.nuget\\packages\\",
-      "outputPath": "D:\\VS\\MARS.TestTask.ClassLibrary\\obj\\",
+      "outputPath": "D:\\VS\\LocalReps\\MARS.TestTask\\MARS.TestTask.ClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maxxx\\AppData\\Roaming\\NuGet\\NuGet.Config",

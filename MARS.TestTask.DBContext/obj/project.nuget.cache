@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AhnFrOfEUHYPuFQx/jHRMFMQsG614GceKo47B1ZAHBO8WN8QP1lvMqgBP0w6xFvfH+oZ0+5rZAxljziJU0gpGg==",
+  "dgSpecHash": "opVM2IJnbF6HKji0X54knaOyYpXUmrpv54VGmHklNWSeu1PNW4Lzxzysf5+HyYQyRxhLpjOv+SSRJyMcdxnu4A==",
   "success": true,
-  "projectFilePath": "D:\\VS\\MARS.TestTask.DBContext\\MARS.TestTask.DBContext.csproj",
+  "projectFilePath": "D:\\VS\\LocalReps\\MARS.TestTask\\MARS.TestTask.DBContext\\MARS.TestTask.DBContext.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maxxx\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\maxxx\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

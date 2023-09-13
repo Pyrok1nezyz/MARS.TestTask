@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7u4w/NPXnFr99k6f2jZSzl22UBeSEzSRCNCSjXDQeF4LIGXhKpt6q9UgducJRrWBG1SKHcwkhVCLi7iWKc3eLg==",
+  "dgSpecHash": "1J8PTvnPZ1qNUAUo0RFkBysK1dQKs2sHzvicTxTzs1guZntb5cPCsnXKjKD7FB90pSrxEJUmYrPuRex8L0XlKQ==",
   "success": true,
-  "projectFilePath": "D:\\VS\\MARS.TestTask.ClassLibrary\\MARS.TestTask.ClassLibrary.csproj",
+  "projectFilePath": "D:\\VS\\LocalReps\\MARS.TestTask\\MARS.TestTask.ClassLibrary\\MARS.TestTask.ClassLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

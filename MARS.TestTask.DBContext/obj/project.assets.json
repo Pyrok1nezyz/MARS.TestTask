@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS\\MARS.TestTask.DBContext\\MARS.TestTask.DBContext.csproj",
+      "projectUniqueName": "D:\\VS\\LocalReps\\MARS.TestTask\\MARS.TestTask.DBContext\\MARS.TestTask.DBContext.csproj",
       "projectName": "MARS.TestTask.DBContext",
-      "projectPath": "D:\\VS\\MARS.TestTask.DBContext\\MARS.TestTask.DBContext.csproj",
+      "projectPath": "D:\\VS\\LocalReps\\MARS.TestTask\\MARS.TestTask.DBContext\\MARS.TestTask.DBContext.csproj",
       "packagesPath": "C:\\Users\\maxxx\\.nuget\\packages\\",
-      "outputPath": "D:\\VS\\MARS.TestTask.DBContext\\obj\\",
+      "outputPath": "D:\\VS\\LocalReps\\MARS.TestTask\\MARS.TestTask.DBContext\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maxxx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3435,8 +3435,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\VS\\MARS.TestTask.ClassLibrary\\MARS.TestTask.ClassLibrary.csproj": {
-              "projectPath": "D:\\VS\\MARS.TestTask.ClassLibrary\\MARS.TestTask.ClassLibrary.csproj"
+            "D:\\VS\\LocalReps\\MARS.TestTask\\MARS.TestTask.ClassLibrary\\MARS.TestTask.ClassLibrary.csproj": {
+              "projectPath": "D:\\VS\\LocalReps\\MARS.TestTask\\MARS.TestTask.ClassLibrary\\MARS.TestTask.ClassLibrary.csproj"
             }
           }
         }
