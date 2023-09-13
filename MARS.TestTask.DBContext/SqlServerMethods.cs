@@ -35,13 +35,16 @@ public class SqlServerMethods
     {
         var connectionString =
             $"Server=localhost;Database=MARS.TestTask;Trusted_Connection=True;TrustServerCertificate=True";
-        var query = $"SELECT COLUMN_NAME,DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='{tableName}'";
+        var query = $"SELECT COLUMN_NAME,DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='@TableName'";
 
         List<string> listTables = new List<string>();
 
         var connection = new SqlConnection(connectionString);
         connection.Open();
         var cmd = new SqlCommand(query, connection);
+        SqlParameter parameter = new SqlParameter("@TableName", tableName);
+        cmd.Parameters.Add(parameter);
+
         var reader = cmd.ExecuteReader();
 
         if (reader.HasRows)
