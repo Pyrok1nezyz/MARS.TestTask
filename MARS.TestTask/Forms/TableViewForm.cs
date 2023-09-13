@@ -46,19 +46,24 @@ namespace MARS.TestTask.Forms
             {
                 var index = dataGridView2.Rows.Add();
                 dataGridView2.Rows[index].Cells[0].Value = list[i];
-                dataGridView2.Rows[index].Cells[1].Value = list[i+1];
+                dataGridView2.Rows[index].Cells[1].Value = list[i + 1];
             }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            var tableName =  dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            var tableName = dataGridView1.CurrentRow.Cells[0].Value.ToString();
             UpdateTableColumns(tableName);
         }
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void TableViewForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

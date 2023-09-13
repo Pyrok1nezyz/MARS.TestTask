@@ -1,6 +1,8 @@
 ﻿using System.Reflection.Metadata;
 using MARS.TestTask.ClassLibrary;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace MARS.TestTask.DBContext;
 
@@ -35,7 +37,7 @@ public class SqlServerMethods
     {
         var connectionString =
             $"Server=localhost;Database=MARS.TestTask;Trusted_Connection=True;TrustServerCertificate=True";
-        var query = $"SELECT COLUMN_NAME,DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='@TableName'";
+        var query = $"SELECT COLUMN_NAME,DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME=@TableName";
 
         List<string> listTables = new List<string>();
 
@@ -70,5 +72,20 @@ public class SqlServerMethods
         connection.Close();
 
         return listTables;
+    }
+
+    public static bool TryConnectToDB()
+    {
+        try
+        {
+            using (var db = new MsSqlContext())
+            {
+                return true;
+            }
+        }
+        catch
+        {
+            return false;
+        }
     }
 }

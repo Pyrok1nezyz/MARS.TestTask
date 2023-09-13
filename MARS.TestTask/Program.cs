@@ -1,3 +1,5 @@
+using MARS.TestTask.DBContext;
+
 namespace MARS.TestTask
 {
     internal static class Program
@@ -10,8 +12,15 @@ namespace MARS.TestTask
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new AutorizationForm());
+            if (SqlServerMethods.TryConnectToDB())
+            {
+                ApplicationConfiguration.Initialize();
+                Application.Run(new AutorizationForm());
+            }
+            else
+            {
+                MessageBox.Show("Не удалось подключиться к базе данных");
+            }
         }
     }
 }
